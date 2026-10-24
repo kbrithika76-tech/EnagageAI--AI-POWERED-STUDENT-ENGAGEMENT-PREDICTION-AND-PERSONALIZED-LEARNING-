@@ -1,0 +1,72 @@
+﻿# ============================================================
+# EngageAI — .gitignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Environment / Secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Databases & Backups
+*.db
+*.sqlite
+*.sqlite3
+backend/backups/
+backups/
+
+# Large Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Output Figures / Reports (generated artifacts)
+outputs/figures/
+outputs/reports/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/

@@ -1,0 +1,123 @@
+{
+    "random_seed": 42,
+    "max_timesteps": 40,
+    "train_split_pct": 70,
+    "val_split_pct": 15,
+    "test_split_pct": 15,
+    "seq_feature_names": [
+        "weekly_clicks_log",
+        "active_days_in_week",
+        "interaction_frequency",
+        "inactivity_indicator"
+    ],
+    "static_feature_names": [
+        "gender_F",
+        "gender_M",
+        "region_East Anglian Region",
+        "region_East Midlands Region",
+        "region_Ireland",
+        "region_London Region",
+        "region_North Region",
+        "region_North Western Region",
+        "region_Scotland",
+        "region_South East Region",
+        "region_South Region",
+        "region_South West Region",
+        "region_Wales",
+        "region_West Midlands Region",
+        "region_Yorkshire Region",
+        "highest_education_A Level or Equivalent",
+        "highest_education_HE Qualification",
+        "highest_education_Lower Than A Level",
+        "highest_education_No Formal quals",
+        "highest_education_Post Graduate Qualification",
+        "imd_band_0-10%",
+        "imd_band_10-20",
+        "imd_band_20-30%",
+        "imd_band_30-40%",
+        "imd_band_40-50%",
+        "imd_band_50-60%",
+        "imd_band_60-70%",
+        "imd_band_70-80%",
+        "imd_band_80-90%",
+        "imd_band_90-100%",
+        "imd_band_Unknown",
+        "age_band_0-35",
+        "age_band_35-55",
+        "age_band_55<=",
+        "disability_N",
+        "disability_Y",
+        "num_of_prev_attempts",
+        "studied_credits",
+        "date_registration",
+        "total_vle_clicks",
+        "active_vle_days",
+        "precourse_vle_clicks",
+        "first_interaction_day",
+        "last_interaction_day",
+        "assessments_submitted",
+        "mean_score",
+        "min_score",
+        "max_score",
+        "late_submissions",
+        "banked_assessments",
+        "module_presentation_length",
+        "total_module_assessments",
+        "avg_clicks_per_active_day",
+        "clicks_per_course_day",
+        "vle_activity_ratio",
+        "interaction_intensity",
+        "registration_delay",
+        "registered_before_course",
+        "late_registration_flag",
+        "assessment_completion_rate",
+        "late_submission_ratio",
+        "assessment_score_normalized",
+        "failed_assessment_flag",
+        "high_score_flag",
+        "is_repeat_student",
+        "credits_per_attempt",
+        "studied_credits_normalized",
+        "click_activity_score",
+        "assessment_performance_score",
+        "overall_engagement_indicator"
+    ],
+    "shapes": {
+        "X_train_seq": [
+            22815,
+            40,
+            4
+        ],
+        "X_val_seq": [
+            4865,
+            40,
+            4
+        ],
+        "X_test_seq": [
+            4913,
+            40,
+            4
+        ],
+        "X_train_static": [
+            22815,
+            70
+        ],
+        "X_val_static": [
+            4865,
+            70
+        ],
+        "X_test_static": [
+            4913,
+            70
+        ],
+        "y_train": [
+            22815
+        ],
+        "y_val": [
+            4865
+        ],
+        "y_test": [
+            4913
+        ]
+    }
+}
