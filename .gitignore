@@ -70,3 +70,6 @@ htmlcov/
 
 # MyPy
 .mypy_cache/
+
+# Large dataset files
+/archive (4)/studentVle.csv
